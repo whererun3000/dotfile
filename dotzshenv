@@ -1,0 +1,10 @@
+export GOROOT=/opt/go
+export GOPATH=~/gopath
+export RISCVPATH=/opt/riscv-gnu-toolchain
+export QEMUPATH=/opt/qemu
+
+export PATH=$QEMUPATH/bin:$RISCVPATH/bin:$GOROOT/bin:$GOPATH/bin:$PATH:/usr/local/bin
+
+export EDITOR=/usr/bin/vim
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
